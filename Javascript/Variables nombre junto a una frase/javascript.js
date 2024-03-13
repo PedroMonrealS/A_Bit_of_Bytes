@@ -1,8 +1,13 @@
+
 function mostrarNombre(){
-    var miNombre = document.getElementById("miNombre");
     var nombre = "Pedro";
+
+    var miNombre = document.getElementById("miNombre");
+    
     miNombre.textContent = "Mi nombre es " + nombre ;
 
 }
 
 mostrarNombre();
+
+
