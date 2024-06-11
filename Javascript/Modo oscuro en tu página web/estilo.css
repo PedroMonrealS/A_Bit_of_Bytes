@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: rgb(251, 253, 255);
+    transition: 0.5s;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+h1{
+    font-family:Tahoma;
+    text-align: center;
+}
+
+button{
+    font-family:Tahoma;
+    font-size: 40px;
+    margin: 20px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #83fc2781;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: #83fc27e8;
+}
+.fondo img{
+    width: 500px;
+    opacity: 0.2;
+}

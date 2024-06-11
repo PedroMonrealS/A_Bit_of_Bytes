@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+
+}
+
+.titulo{
+    font-family:Tahoma;
+    text-align: center;
+}
+
+
+.DIVbotones{
+    display: inline-block;
+    border-style: solid;
+    padding: 20px;
+
+}
+
+.DIVbotones button{
+    border-style: dashed;
+    color:rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Helvetica;
+    transition: 0.3s ease-in-out;
+}
+
+.DIVbotones button:hover{
+    background-color: rgb(129, 196, 255);
+}
+
+
+button.reset{
+    border-style: solid;
+    color:rgb(0, 0, 0);
+    padding: 5px;
+    margin: 20px;
+    font-size: 15px;
+    font-family: Helvetica;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(255, 156, 156);
+}
+
+button.reset:hover{
+    background-color: rgb(255, 214, 214);
+}
+
+.h1{
+    display: inline-block;
+    font-family:'Courier New';
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+
+}

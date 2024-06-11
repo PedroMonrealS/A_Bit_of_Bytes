@@ -1,0 +1,22 @@
+*{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family:tahoma;
+    
+}
+.titulo{
+    text-align: center;
+}
+
+.soy{
+    text-align: center;
+    color:blue;
+}
+
+button{
+    background-color: white;
+    border-color: rgb(255, 0, 0);
+    font-size: 30px;
+}

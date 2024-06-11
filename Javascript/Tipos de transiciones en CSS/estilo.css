@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+}
+
+.titulo{
+    font-family:Tahoma;
+    text-align: center;
+    color:white
+}
+.DIVcajas{
+align-items: center;
+}
+
+.a, .b, .c, .d, .e{
+    background-color: rgb(255, 47, 47);
+    height: 80px;
+    width: 100px;
+    margin: 13px;
+    border-radius: 5px;
+    box-shadow: 10px 6px rgb(138, 255, 138);
+}
+
+.individual{
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.individual h1{
+  font-family: Tahoma;
+  font-size: 20px;
+  position: absolute;
+text-shadow: 1px 1px 1px black;
+color:white
+
+}
+.a{
+  transition: all ease 5s;
+  width: 1000px;
+}
+
+.b{
+  transition: all 5s linear;
+  width: 1000px;
+}
+
+.c{
+  transition: all 5s ease-in;
+  width: 1000px;
+}
+
+.d{
+  transition: all 5s ease-out;
+  width: 1000px;
+}
+
+.e{
+  transition: all 5s ease-in-out;
+  width: 1000px;
+}
+button{
+  background-color: rgb(58, 58, 58);
+  color:white;
+  font-size: 20px;
+  padding: 10px;
+  font-family: tahoma;
+
+
+}

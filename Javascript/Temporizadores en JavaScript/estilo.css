@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+}
+
+.titulo{
+    font-family:Tahoma;
+    text-align: center;
+    color:white
+}
+button{
+  background-color: rgb(58, 58, 58);
+  color:white;
+  font-size: 20px;
+  padding: 10px;
+  font-family: tahoma;
+  transition: all 0.3s ease-out;
+  border-style: none;
+  box-shadow: 2px 2px rgb(112, 111, 122);
+}
+
+button:hover{
+  background-color: rgb(134, 134, 134);
+}
+h3{
+  font-family: Tahoma;
+  font-size: 40px;
+  margin: 20px;
+  
+}
+h1{
+  color:white;
+  font-family: Tahoma;
+}
+
+.caja{
+  display: inline-block;
+}
+.divs{
+  border-style: solid;
+  padding: 20px;
+  margin-bottom: 50px;
+  background-color: rgb(211, 211, 211);
+  width: 400px;
+  height: 300px;
+  font-family: tahoma;
+
+
+}
+
+.divs h1{
+  color:black;
+  margin: 40px;
+}
+
+.divs h2{
+
+  color:black;
+  margin: 40px;
+  
+}
